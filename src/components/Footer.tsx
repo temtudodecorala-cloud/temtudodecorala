@@ -15,9 +15,8 @@ export function Footer() {
             <div className="flex items-center gap-2.5">
               <img
                 src="/logo.jpg"
-                alt=""
-                aria-hidden="true"
-                className="h-9 w-9 rounded-xl border border-[#E5DDD2] object-cover"
+                alt={storeName}
+                className="h-10 w-10 rounded-xl border border-[#2F2B27] bg-black object-cover"
               />
               <p className="font-display text-2xl font-semibold text-[#1F1D1B]">
                 {storeName}

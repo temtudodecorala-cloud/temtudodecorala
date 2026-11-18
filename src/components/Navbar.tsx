@@ -25,9 +25,8 @@ export function Navbar() {
         >
           <img
             src="/logo.jpg"
-            alt=""
-            aria-hidden="true"
-            className="h-10 w-10 rounded-xl border border-[#E5DDD2] object-cover transition-transform duration-200 group-hover:scale-105"
+            alt={storeName}
+            className="h-11 w-11 rounded-xl border border-[#2F2B27] bg-black object-cover transition-transform duration-200 group-hover:scale-105"
           />
           <span className="font-display text-2xl font-semibold tracking-tight text-[#1F1D1B]">
             {storeName}
