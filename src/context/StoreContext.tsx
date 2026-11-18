@@ -20,7 +20,7 @@ interface StoreContextValue {
 const DEFAULT_SETTINGS: StoreSettings = {
   id: 1,
   whatsapp_number: '',
-  store_name: 'Temtudo Decorala',
+  store_name: 'Temtudo Decoralar',
   updated_at: '',
 };
 

@@ -1,4 +1,4 @@
-# Abreu Móveis — Loja Virtual Simples
+# Temtudo Decoralar — Loja Virtual Simples
 
 Vitrine virtual minimalista para loja de móveis com catálogo gerenciado pelo administrador via Supabase e atendimento direto pelo WhatsApp.
 

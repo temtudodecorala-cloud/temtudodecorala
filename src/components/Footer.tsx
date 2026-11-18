@@ -5,7 +5,7 @@ import { CATEGORIES } from '../types';
 
 export function Footer() {
   const { settings } = useStore();
-  const storeName = settings.store_name?.trim() || 'Temtudo Decorala';
+  const storeName = settings.store_name?.trim() || 'Temtudo Decoralar';
 
   return (
     <footer className="border-t border-[#E7E0D6] bg-[#F3EFE9] text-[#6B655E]">

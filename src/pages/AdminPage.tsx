@@ -103,7 +103,7 @@ export function AdminPage() {
 
     const { error } = await supabase.from('store_settings').upsert({
       id: 1,
-      store_name: storeName.trim() || 'Temtudo Decorala',
+      store_name: storeName.trim() || 'Temtudo Decoralar',
       whatsapp_number: whatsappNumber.trim(),
     });
 
@@ -589,7 +589,7 @@ export function AdminPage() {
                   type="text"
                   value={storeName}
                   onChange={(e) => setStoreName(e.target.value)}
-                  placeholder="Temtudo Decorala"
+                  placeholder="Temtudo Decoralar"
                   className="mt-1.5 w-full rounded-xl border border-[#DDD5CA] bg-[#FAF8F5] px-3.5 py-2.5 text-sm text-[#1F1D1B] focus:border-[#1F1D1B] focus:outline-none"
                 />
               </div>

@@ -6,7 +6,7 @@ import { useStore } from '../context/StoreContext';
 export function Navbar() {
   const { settings } = useStore();
   const [mobileOpen, setMobileOpen] = useState(false);
-  const storeName = settings.store_name?.trim() || 'Temtudo Decorala';
+  const storeName = settings.store_name?.trim() || 'Temtudo Decoralar';
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     `text-sm tracking-wide transition-colors ${

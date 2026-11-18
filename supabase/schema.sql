@@ -22,13 +22,13 @@ create table if not exists public.products (
 create table if not exists public.store_settings (
   id integer primary key default 1 check (id = 1),
   whatsapp_number text not null default '',
-  store_name text not null default 'Temtudo Decorala',
+  store_name text not null default 'Temtudo Decoralar',
   updated_at timestamptz not null default now()
 );
 
 -- Garante que exista a linha inicial de configurações (sem produtos fictícios)
 insert into public.store_settings (id, whatsapp_number, store_name)
-values (1, '', 'Temtudo Decorala')
+values (1, '', 'Temtudo Decoralar')
 on conflict (id) do nothing;
 
 -- 3. Trigger para atualizar updated_at automaticamente
